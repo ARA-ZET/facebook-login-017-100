@@ -1,0 +1,91 @@
+* {
+  font-family: 'Roboto', sans-serif;
+
+}
+.overlay {
+  background-color: rgb(245, 245, 245);
+  padding: 1rem 0 4rem 0;
+}
+
+
+
+
+form {
+  border: 0y;
+  padding: 1rem 1.5rem;
+  border-radius: .5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto;
+  width: 24rem;
+  background-color: white;
+  box-shadow: 1px 1px 5px rgb(192, 192, 192);
+}
+
+h1 {
+  color: rgb(25, 104, 223);
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+h2 {
+  
+  text-align: center;
+ font-weight: 300;
+}
+
+input {
+  width: 98%;
+  height: 3rem;
+  border:  2px solid rgb(223, 222, 222);
+  border-radius: .4rem;
+  margin-bottom: .9rem;
+}
+
+::placeholder {
+  font-size: 1.3rem;
+}
+
+.login {
+  height: 3rem;
+  border-radius: .4rem;
+  background-color: rgb(25, 104, 223);
+  border: 0;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 400;
+  width: 98%;
+  margin-bottom: .9rem;
+}
+.new-account {
+  height: 3rem;
+  border-radius: .4rem;
+  background-color: rgb(11, 177, 33);
+  border: 0;
+  color: white;
+  font-size: 1.4rem;
+  padding: 0 .9rem;
+}
+
+.underline {
+  display: flex;
+  align-items: center;
+}
+.line {
+  border: .5px solid rgb(236, 233, 233);
+  height: .5px;
+  width: 9rem;
+  background-color: rgb(204, 203, 203);
+
+}
+
+h4 {
+  margin:  1rem .3rem;
+}
+
+span {
+  color: rgb(30, 76, 175);
+}
